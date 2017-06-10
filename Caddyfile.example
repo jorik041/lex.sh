@@ -1,10 +1,8 @@
-lex.sh
+yourdomain.com
 root      public
 basicauth /admin username yourpassword
 hugo
-tls {
-	dns digitalocean
-}
-git https://github.com/lexrus/lex.sh.git {
+tls
+git https://github.com/yourname/repo.git {
 	then hugo
 }
