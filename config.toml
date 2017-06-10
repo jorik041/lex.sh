@@ -1,0 +1,66 @@
+languageCode = "zh-CN"
+title = "Lex Tang"
+baseurl = "https://lex.sh/"
+
+paginate = 10
+DisqusShortname = "lexrus"
+Copyright = "&copy; 2017 lex.sh"
+canonifyurls = true
+publishDir = "public"
+
+[params]
+  description = "找个安静的地方，听自己讲故事"
+  cover = "images/hero.jpg"
+  author = "Lex Tang"
+  authorlocation = "Shanghai, China"
+  authorwebsite = "https://lex.sh"
+  # bio= "my bio"
+  logo = "images/logo.png"
+  googleAnalyticsUserID = "UA-30327263-4"
+  githubName = "lexrus"
+  twitterName = "lexrus"
+  facebookName = "lexrus"
+  linkedinName = "lexrus"
+  hideHUGOSupport = false
+  [params.social]
+    twitter = "lexrus"
+
+[permalinks]
+  post = "/:filename"
+
+[[menu.main]]
+  name = "Lex.sh"
+  weight = 100
+  identifier = "blog"
+  url = "/"
+
+[[menu.main]]
+  name = "Résumé"
+  weight = 99
+  identifier = "resume"
+  url = "http://lexrus.com"
+
+
+[[menu.main]]
+  name = "GitHub"
+  weight = 9
+  identifier = "about"
+  url = "https://github.com/lexrus"
+
+[[menu.main]]
+  name = "Twitter"
+  weight = 8
+  identifier = "twitter"
+  url = "https://twitter.com/lexrus"
+
+[[menu.main]]
+  name = "Dribbble"
+  weight = 7
+  identifier = "dribbble"
+  url = "https://dribbble.com/lexrus"
+
+[[menu.main]]
+  name = "Instagram"
+  weight = 6
+  identifier = "instagram"
+  url = "https://www.instagram.com/lexrus/"

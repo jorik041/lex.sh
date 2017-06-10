@@ -1,0 +1,10 @@
+lex.sh
+root      public
+basicauth /admin username yourpassword
+hugo
+tls {
+	dns digitalocean
+}
+git https://github.com/lexrus/lex.sh.git {
+	then hugo
+}
