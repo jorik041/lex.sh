@@ -2,7 +2,7 @@ yourdomain.com
 root      public
 basicauth /admin username yourpassword
 hugo
-tls
+tls your_email@me.com
 git https://github.com/yourname/repo.git {
 	then hugo
 }

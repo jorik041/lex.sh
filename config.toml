@@ -3,7 +3,7 @@ title = "Lex Tang"
 baseurl = "https://lex.sh/"
 
 paginate = 10
-DisqusShortname = "lexrus"
+DisqusShortname = "lex.sh"
 Copyright = "&copy; 2017 lex.sh"
 canonifyurls = true
 publishDir = "public"
